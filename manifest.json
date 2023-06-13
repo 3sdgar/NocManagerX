@@ -1,0 +1,34 @@
+{
+  "name": "NOC Manager Xtension",
+  "description": "Llenado de Plantilla Automatica",
+  "version": "8",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "unlimitedStorage",
+    "debugger",
+    "clipboardWrite",
+    "https://soporte.datasys.la/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/ico.png",
+      "32": "/images/ico.png",
+      "48": "/images/ico.png",
+      "128": "/images/ico.png"
+    }
+  },
+  "icons": {
+    "16": "/images/ico.png",
+    "32": "/images/ico.png",
+    "48": "/images/ico.png",
+    "128": "/images/ico.png"
+  }
+}

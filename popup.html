@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" >
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+  
+  <div class="contenedor" id="contenedor">
+
+      <center>
+      <img id="imgText" src="images/NMX7-5.PNG" alt="" srcset="" style="max-width:100% ; text-align: center; ">
+      </center>
+
+    <div class="botones" id="botones">
+
+      <button id="plantilla"     type="button" class="boton" script-src='unsafe-hashes'>Plantilla       </button>
+      <button id="nocManager"    type="button" class="boton" script-src='unsafe-hashes'>nocManager      </button>
+      <button id="jiraFiltro"    type="button" class="boton" script-src='unsafe-hashes'>Jira Filter     </button>
+      <button id="fondo"         type="button" class="boton" script-src='unsafe-hashes'>Split AppD      </button>
+      <button id="prtgTest"      type="button" class="boton" script-src='unsafe-hashes'>PRTG -Test      </button>
+      <button id="revisiones"    type="button" class="boton2"script-src='unsafe-hashes'>revisiones      </button>
+    </div> 
+
+    <div class="contenedorInterno" id="contenedorInterno">  </div>    
+    <div class="contenedores" id="plantillaInterna">  </div>
+  
+    </div>
+
+    <button id="changeColor" style="display:none ;"></button>
+  <footer id="footer" class="footer"> <br>
+      <div id="pfooter">Versi&oacute;n <strong style="color: orange;">8</strong><br>
+          Desarrollado por Edgar Fabian <br>
+             3sdgar@gmail.com</div>  <br>
+
+  <img src="images/wnico.png" id="wikinoc" alt="wikinoc" title="Un click para abrir la wikiNoc, doble click para acceder a la Wiki del Noc en nueva pestaña (toda la información en solo lugar)" >
+
+
+     <div class="llamarA" id="llamarA" title="Si tiene dispositivos vinculados puede gestionar llamadas desde aqui. (Doble Click para abrir)">
+      <div id="cambiaFunc"><div id="i" class="i"> Llamar a:</div></div>
+      <br>
+      <input style="width:86%; margin-left: 4%;" id="busquedaDirectorio" type="text" placeholder="Busqueda" ><br>
+      <div id="cajalii" class="cajalii"></div>
+      <br>
+    </div>
+
+  </footer>
+
+  <img src="images/shCamara2-removebg-preview.png" class="screenShot" id="screenShot"  alt="" srcset="" title="Tomar screeShot a portapapeles">
+
+
+  
+  <script src="popup.js"></script>
+  <script src="frameAppD.js"></script>
+  <script src="jsonsListado.js"></script> 
+  <script src="botonesPlantilla.js"></script>
+  <script src="jiraFilter.js"></script>
+  <script src="versiones.js"></script>
+  <script src="excel.js"></script>
+  <script src="bd.js"></script>
+  <script src="numeros.js"></script>
+  <script src="getXpath.js"></script>
+
+  
+
+  <input type="hidden" id="dispositivoTemporal">
+
+<div id="audios"></div>
+<input id="dat" type="hidden">
+<input id="us" type="hidden">
+<div id="contfix"></div>
+
+  <audio id="audio" controls style="visibility:hidden">
+    <source src="audio.mp3" type="audio/ogg">
+    <source src="audio.mp3" type="audio/mp3">
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+
+
+  </body>
+</html>
